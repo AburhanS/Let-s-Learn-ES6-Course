@@ -14,8 +14,7 @@ myPromise.then((res) => {
     console.log(res);
 } /* , (err) => {
     console.log(err);
-} */
-)
+} */ )
 .catch((err) => {
     console.log(err);
 });
@@ -32,4 +31,4 @@ Promise.all([myPromise, myPromise2])
     })
     .catch((err) => {
         console.log(err);
-    })
+    });
